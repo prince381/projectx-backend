@@ -17,24 +17,24 @@ The project is structured with production-ready patterns including JWT-based aut
 ## 🧱 Project Structure
 
 src/
-├── server.js # Application entry point
-├── app.js # Express app configuration
-├── config/
-│ └── database.js # Database connection setup
-├── auth/
-│ └── auth.js # Authentication logic
-├── middlewares/
-│ └── rbacMiddleware.js # Role-based access control
-├── models/
-│ ├── User.js # User model
-│ ├── EmailCode.js # Email verification / code model
-│ └── index.js # Model exports
-├── utils/
-│ ├── verifyJWT.js # JWT verification utility
-│ ├── sendEmail.js # Email sending utility
-│ ├── errorHandler.js # Centralized error handling
-│ ├── catchError.js # Async error wrapper
-│ └── connection.js # Database connection helper
+├── server.js # Application entry point <br>
+├── app.js # Express app configuration <br>
+├── config/ <br>
+│ └── database.js # Database connection setup <br>
+├── auth/ <br>
+│ └── auth.js # Authentication logic <br>
+├── middlewares/ <br>
+│ └── rbacMiddleware.js # Role-based access control <br>
+├── models/ <br>
+│ ├── User.js # User model <br>
+│ ├── EmailCode.js # Email verification/code model <br>
+│ └── index.js # Model exports <br>
+├── utils/ <br>
+│ ├── verifyJWT.js # JWT verification utility <br>
+│ ├── sendEmail.js # Email sending utility <br>
+│ ├── errorHandler.js # Centralized error handling <br>
+│ ├── catchError.js # Async error wrapper <br>
+│ └── connection.js # Database connection helper <br>
 
 
 ## 🧠 Architecture Overview
