@@ -16,7 +16,7 @@ The project is structured with production-ready patterns including JWT-based aut
 
 ## 🧱 Project Structure
 
-src/
+src/ <br>
 ├── server.js # Application entry point <br>
 ├── app.js # Express app configuration <br>
 ├── config/ <br>
